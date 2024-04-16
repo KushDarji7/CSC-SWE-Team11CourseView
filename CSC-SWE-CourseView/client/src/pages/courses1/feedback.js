@@ -100,8 +100,6 @@ const CourseFeedbackForm = ({onSubmit, selectedCourse}) => {
       setShowWarning(false);
       
     }
-
-    
     
   };
 
