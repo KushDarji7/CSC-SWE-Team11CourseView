@@ -264,7 +264,7 @@ const CourseFeedbackForm = ({onSubmit, selectedCourse}) => {
 
         {showWarning && <div className="alert alert-warning" role="alert">Please select ratings for all categories.</div>}
         {/*Tenary operator in data-bs-modal ensures that user must fill in all radio boxes before submitting */}
-        <button className="submitFeedbackBtn btn btn-primary" type="submit" data-bs-dismiss={allRadioChecked() ? "modal" : ""}>Submit</button>
+        {/* <button className="submitFeedbackBtn btn btn-primary" type="submit" data-bs-dismiss={allRadioChecked() ? "modal" : ""}>Submit</button> */}
         <button type="button" className="resetFeedbackBtn btn btn-danger" onClick={handleReset}>Reset</button>
     </form>
   );
