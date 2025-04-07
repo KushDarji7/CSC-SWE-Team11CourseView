@@ -1,5 +1,5 @@
 # CourseView
-### An Cao 
+### Kush Darji 
 
 # Getting Started with Create React App
 
